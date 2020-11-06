@@ -1,0 +1,12 @@
+{
+  "name": "playwright-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "folio --param screenshotOnFailure"
+  },
+  "devDependencies": {
+    "@playwright/test": "^0.152.0"
+  }
+}
