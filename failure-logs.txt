@@ -1,0 +1,32 @@
+Attaching to playwright-tests_end-2-end_1
+end-2-end_1  | yarn run v1.22.10
+end-2-end_1  | $ folio --param screenshotOnFailure
+                 1) tests/reddit-search.test.ts:6:5 › open a Dota 2 sub-reddit with Reddit Search simple search ===
+end-2-end_1  |      browserName=chromium, headful=false, slowMo=0, video=false, screenshotOnFailure=true
+end-2-end_1  |
+end-2-end_1  |     Timeout of 30000ms exceeded.
+end-2-end_1  |
+                 2) tests/reddit-search.test.ts:6:5 › open a Dota 2 sub-reddit with Reddit Search simple search ===
+end-2-end_1  |      browserName=firefox, headful=false, slowMo=0, video=false, screenshotOnFailure=true
+end-2-end_1  |
+end-2-end_1  |     Timeout of 30000ms exceeded.
+end-2-end_1  |
+                 3) tests/reddit-search.test.ts:6:5 › open a Dota 2 sub-reddit with Reddit Search simple search ===
+end-2-end_1  |      browserName=webkit, headful=false, slowMo=0, video=false, screenshotOnFailure=true
+end-2-end_1  |
+end-2-end_1  |     Timeout of 30000ms exceeded.
+end-2-end_1  |
+                 3 passed (1m)
+end-2-end_1  |   3 failed
+end-2-end_1  |     tests/reddit-search.test.ts:6:5 › open a Dota 2 sub-reddit with Reddit Search simple search ====
+end-2-end_1  |     browserName=chromium, headful=false, slowMo=0, video=false, screenshotOnFailure=true
+end-2-end_1  |     tests/reddit-search.test.ts:6:5 › open a Dota 2 sub-reddit with Reddit Search simple search ====
+end-2-end_1  |     browserName=webkit, headful=false, slowMo=0, video=false, screenshotOnFailure=true
+end-2-end_1  |     tests/reddit-search.test.ts:6:5 › open a Dota 2 sub-reddit with Reddit Search simple search ====
+end-2-end_1  |     browserName=firefox, headful=false, slowMo=0, video=false, screenshotOnFailure=true
+end-2-end_1  |
+end-2-end_1  |   Slow test: reddit-search.test.ts (2m)
+end-2-end_1  |
+end-2-end_1  | error Command failed with exit code 1.
+end-2-end_1  | info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+playwright-tests_end-2-end_1 exited with code 1
