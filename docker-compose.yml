@@ -7,4 +7,4 @@ services:
       dockerfile: ./docker/Dockerfile
     volumes:
       - .:/app/
-    command: bash -c "yarn test"
+    command: bash -c "export DEBUG=pw:api && yarn test"
